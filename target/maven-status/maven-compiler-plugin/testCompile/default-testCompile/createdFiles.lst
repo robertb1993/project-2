@@ -1,0 +1,6 @@
+TestCases\News.class
+PageObjectModel\MLB.class
+PageObjectModel\MLS.class
+PageObjectModel\Bangladesh.class
+PageObjectModel\NBA.class
+PageObjectModel\NFL.class
