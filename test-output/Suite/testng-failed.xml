@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)" parallel="classes">
+  <test name="Test(failed)">
     <classes>
-      <class name="TestCases.News">
+      <class name="TestCases.NBAnews">
+        <methods>
+          <include name="NBANews"/>
+          <include name="WebDriver"/>
+        </methods>
+      </class> <!-- TestCases.NBAnews -->
+      <class name="TestCases.MLBnews">
         <methods>
           <include name="MLBNews"/>
-          <include name="BanglaNews"/>
-          <include name="NFLNews"/>
-          <include name="NBANews"/>
-          <include name="Test1"/>
-          <include name="MLSNews"/>
+          <include name="WebDriver"/>
         </methods>
-      </class> <!-- TestCases.News -->
+      </class> <!-- TestCases.MLBnews -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

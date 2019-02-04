@@ -3,18 +3,20 @@ package PageObjectModel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public abstract class MLB {
+public class MLB {
 	private final WebDriver driver;
 
 	public MLB(WebDriver passWebDriver) {
 		this.driver = passWebDriver;
+
 	}
 
-	@FindBy(xpath = "//*[@class='SDkEP']//input")
-	WebElement Nets ;
+	@FindBy(xpath = "//input[@title='Search']")
+	WebElement Nets;
 
-	@FindBy(xpath = "(//*[@class='hdtb-mitem hdtb-imb']//a)[3]")
+	@FindBy(xpath = "//a[contains(text(),'News')]")
 	WebElement Yonkee;
 
 	public WebDriver Driver() {
@@ -25,9 +27,8 @@ public abstract class MLB {
 		return Nets;
 	}
 
-	public WebElement 	AndrewCashner() {
+	public WebElement AndrewCashner() {
 		return Yonkee;
 	}
-	
 
 }

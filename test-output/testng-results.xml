@@ -1,77 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="0" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3568" started-at="2019-01-31T22:40:32Z" finished-at="2019-01-31T22:40:36Z">
+  <suite name="Suite" duration-ms="26149" started-at="2019-02-04T07:58:43Z" finished-at="2019-02-04T07:59:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3568" started-at="2019-01-31T22:40:32Z" finished-at="2019-01-31T22:40:36Z">
-      <class name="TestCases.News">
-        <test-method status="FAIL" signature="NBANews()[pri:0, instance:TestCases.News@77caeb3e]" name="NBANews" duration-ms="0" started-at="2019-01-31T17:40:32Z" finished-at="2019-01-31T17:40:32Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.InstantiationException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.InstantiationExceptionat org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:134)at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)at TestCases.News.NBANews(News.java:66)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)Caused by: java.lang.InstantiationExceptionat sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:129)... 15 more]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NBANews -->
-        <test-method status="FAIL" signature="NFLNews()[pri:0, instance:TestCases.News@77caeb3e]" name="NFLNews" duration-ms="0" started-at="2019-01-31T17:40:32Z" finished-at="2019-01-31T17:40:32Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.InstantiationException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.InstantiationExceptionat org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:134)at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)at TestCases.News.NFLNews(News.java:52)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)Caused by: java.lang.InstantiationExceptionat sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:129)... 15 more]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+    <test name="Test" duration-ms="26149" started-at="2019-02-04T07:58:43Z" finished-at="2019-02-04T07:59:09Z">
+      <class name="TestCases.NFLnews">
+        <test-method status="PASS" signature="NFLNews()[pri:0, instance:TestCases.NFLnews@1bce4f0a]" name="NFLNews" duration-ms="5778" started-at="2019-02-04T02:58:43Z" finished-at="2019-02-04T02:58:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NFLNews -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:TestCases.News@77caeb3e]" name="Test1" duration-ms="3519" started-at="2019-01-31T17:40:32Z" finished-at="2019-01-31T17:40:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="FAIL" signature="MLBNews()[pri:0, instance:TestCases.News@77caeb3e]" name="MLBNews" duration-ms="1" started-at="2019-01-31T17:40:36Z" finished-at="2019-01-31T17:40:36Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.InstantiationException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.InstantiationExceptionat org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:134)at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)at TestCases.News.MLBNews(News.java:80)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)Caused by: java.lang.InstantiationExceptionat sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:129)... 15 more]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MLBNews -->
-        <test-method status="FAIL" signature="MLSNews()[pri:0, instance:TestCases.News@77caeb3e]" name="MLSNews" duration-ms="2" started-at="2019-01-31T17:40:36Z" finished-at="2019-01-31T17:40:36Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.InstantiationException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.InstantiationExceptionat org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:134)at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)at TestCases.News.MLSNews(News.java:95)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)Caused by: java.lang.InstantiationExceptionat sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:129)... 15 more]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+      </class> <!-- TestCases.NFLnews -->
+      <class name="TestCases.MLSnews">
+        <test-method status="PASS" signature="MLSNews()[pri:0, instance:TestCases.MLSnews@685cb137]" name="MLSNews" duration-ms="4691" started-at="2019-02-04T02:59:05Z" finished-at="2019-02-04T02:59:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MLSNews -->
-        <test-method status="FAIL" signature="BanglaNews()[pri:0, instance:TestCases.News@77caeb3e]" name="BanglaNews" duration-ms="1" started-at="2019-01-31T17:40:36Z" depends-on-methods="TestCases.News.Test1" finished-at="2019-01-31T17:40:36Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.InstantiationException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.InstantiationExceptionat org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:134)at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)at TestCases.News.BanglaNews(News.java:37)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)Caused by: java.lang.InstantiationExceptionat sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:129)... 15 more]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+      </class> <!-- TestCases.MLSnews -->
+      <class name="TestCases.NBAnews">
+        <test-method status="PASS" signature="NBANews()[pri:0, instance:TestCases.NBAnews@6a4f787b]" name="NBANews" duration-ms="5340" started-at="2019-02-04T02:58:59Z" finished-at="2019-02-04T02:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NBANews -->
+      </class> <!-- TestCases.NBAnews -->
+      <class name="TestCases.MLBnews">
+        <test-method status="PASS" signature="MLBNews()[pri:0, instance:TestCases.MLBnews@91161c7]" name="MLBNews" duration-ms="5297" started-at="2019-02-04T02:58:49Z" finished-at="2019-02-04T02:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MLBNews -->
+      </class> <!-- TestCases.MLBnews -->
+      <class name="TestCases.BangladeshiNews">
+        <test-method status="PASS" signature="BanglaNews()[pri:0, instance:TestCases.BangladeshiNews@604ed9f0]" name="BanglaNews" duration-ms="5003" started-at="2019-02-04T02:58:54Z" finished-at="2019-02-04T02:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BanglaNews -->
-      </class> <!-- TestCases.News -->
+      </class> <!-- TestCases.BangladeshiNews -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

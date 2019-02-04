@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="50" name="Suite" parallel="classes">
-  <test thread-count="50" name="Test" parallel="classes">
+<suite thread-count="50" name="Suite">
+  <test thread-count="50" name="Test">
     <classes>
-      <class name="TestCases.News"/>
+      <class name="TestCases.NFLnews"/>
+      <class name="TestCases.MLBnews"/>
+      <class name="TestCases.BangladeshiNews"/>
+      <class name="TestCases.NBAnews"/>
+      <class name="TestCases.MLSnews"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
